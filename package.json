@@ -1,0 +1,14 @@
+{
+  "name": "greenlegacy-netlify-functions",
+  "version": "1.0.0",
+  "description": "Netlify functions for GreenLegacy (Razorpay order + verify) ",
+  "main": "netlify/functions/createOrder.js",
+  "scripts": {
+    "start": "netlify dev"
+  },
+  "dependencies": {
+    "razorpay": "^2.8.0",
+    "firebase-admin": "^11.0.0",
+    "body-parser": "^1.20.0"
+  }
+}
